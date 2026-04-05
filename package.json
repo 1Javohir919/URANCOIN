@@ -1,0 +1,13 @@
+{
+  "name": "urancoin-miner",
+  "version": "1.0.0",
+  "description": "URANCOIN Giganazavr Bot",
+  "main": "api/bot.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@supabase/supabase-js": "^2.42.0"
+  }
+}
