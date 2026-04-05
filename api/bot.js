@@ -50,7 +50,7 @@ export default async function handler(req, res) {
                 parse_mode: 'Markdown',
                 reply_markup: {
                     inline_keyboard: [
-                        [{ text: "📢 Kanalga a'zo bo'lish", url: `https://t.me/${CHANNELS[0].replace('@','')}` }],
+                        [{ text: "📢 Kanalga azo bo'lish", url: `https://t.me/${CHANNELS[0].replace('@','')}` }],
                         [{ text: "✅ Tekshirish", callback_data: 'check' }]
                     ]
                 }
