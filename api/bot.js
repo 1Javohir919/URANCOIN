@@ -6,7 +6,7 @@ const supabase = createClient('https://xgqctjchppduhbickbmd.supabase.co', 'sb_pu
 const bot = new TelegramBot('7811209905:AAHTFGdyjM48VHmdvBo4tqIuY5MhuW911DM');
 
 // MAJBURIY KANAL (O'zingiznikini yozing)
-const CHANNELS = ['@uran_channel']; 
+const CHANNELS = ['@TechHub201']; 
 
 module.exports = async (req, res) => {
     try {
